@@ -87,13 +87,30 @@ implementation("com.squareup.okhttp3:logging-interceptor")
 
 Retrofit is a type-safe HTTP client for Android and Java, developed by Square.
 
+PICASSO :   
+```kotlin
+implementation ("com.squareup.picasso:picasso:2.8")
+```
+
+GLIDE :
+```kotlin
+ implementation 'com.github.bumptech.glide:glide:4.16.0'
+```
+
+VOLLEY :
+```kotlin
+implementation ("com.github.bumptech.glide:volley-integration:4.14.2")
+```
+
+CircularImageView :
+```kotlin
+implementation ("de.hdodenhof:circleimageview:3.1.0")
+```
+
 ### Dependency Versions:
 ```kotlin
 val retrofit_version = "2.11.0"
-```
 
-### Dependencies:
-```kotlin
 implementation("com.squareup.retrofit2:retrofit:$retrofit_version")
 ```
 
@@ -128,10 +145,6 @@ Pagination library helps you load data gradually and efficiently, perfect for ha
 ### Dependency Versions:
 ```kotlin
 val paging_version = "3.3.2"
-```
-
-### Dependencies:
-```kotlin
 implementation("androidx.paging:paging-runtime:$paging_version")
 
 // For testing without Android dependencies
@@ -147,8 +160,5 @@ implementation("androidx.paging:paging-compose:3.3.2")
 ---
 
 ### Usage Notes
-
-- Ensure that your project’s Gradle files are set up to use Kotlin DSL if you prefer a more concise and idiomatic build script.
-- Keep your dependency versions consistent across modules to avoid compatibility issues.
-
-This README provides a handy reference for setting up and using these dependencies in your Android projects.
+- Ensure that your project’s Gradle files are set up to use Kotlin DSL.
+- You can too refer to Official Docs as well for in-depth reference or dependencies update.
