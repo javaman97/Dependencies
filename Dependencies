@@ -78,7 +78,4 @@ DAGGER-HILT :
         // optional - Jetpack Compose integration
         implementation("androidx.paging:paging-compose:3.3.2")
 
-
-MP Chart Library :
-                     implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
-                Note* - don't forget to import 'JITPACK' in project module in Maven -->  maven { url = uri("https://jitpack.io") }
+
