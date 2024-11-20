@@ -87,9 +87,22 @@ implementation("com.squareup.okhttp3:logging-interceptor")
 
 Retrofit is a type-safe HTTP client for Android and Java, developed by Square.
 
-PICASSO :   
+### Dependency Versions:
 ```kotlin
-implementation ("com.squareup.picasso:picasso:2.8")
+val retrofit_version = "2.11.0"
+
+implementation("com.squareup.retrofit2:retrofit:$retrofit_version")
+```
+
+### Notes:
+- Combine Retrofit with OkHttp for network operations, making it easy to handle API requests and responses.
+
+## Image Loading 
+
+COIL :   
+```kotlin
+implementation("io.coil-kt.coil3:coil-compose:3.0.3")
+implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.3")
 ```
 
 GLIDE :
@@ -106,16 +119,6 @@ CircularImageView :
 ```kotlin
 implementation ("de.hdodenhof:circleimageview:3.1.0")
 ```
-
-### Dependency Versions:
-```kotlin
-val retrofit_version = "2.11.0"
-
-implementation("com.squareup.retrofit2:retrofit:$retrofit_version")
-```
-
-### Notes:
-- Combine Retrofit with OkHttp for network operations, making it easy to handle API requests and responses.
 
 ## Dagger-Hilt
 
