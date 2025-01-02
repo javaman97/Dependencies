@@ -128,7 +128,7 @@ Hilt is a dependency injection library for Android that reduces the boilerplate 
 
 ### Project-level setup:
 ```kotlin
-id("com.google.dagger.hilt.android") version "2.44" apply false
+id("com.google.dagger.hilt.android") version "2.51.1" apply false
 ```
 
 ### App/module-level setup:
@@ -136,8 +136,8 @@ id("com.google.dagger.hilt.android") version "2.44" apply false
 id("kotlin-kapt")
 id("com.google.dagger.hilt.android")
 
-implementation("com.google.dagger:hilt-android:2.44")
-kapt("com.google.dagger:hilt-android-compiler:2.44")
+implementation("com.google.dagger:hilt-android:2.51.1")
+kapt("com.google.dagger:hilt-android-compiler:2.51.1")
 ```
 
 ### Notes:
