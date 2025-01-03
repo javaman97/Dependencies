@@ -103,8 +103,8 @@ implementation("com.squareup.retrofit2:converter-gson:$retrofit_version)"
 
 COIL :   
 ```kotlin
-implementation("io.coil-kt.coil3:coil-compose:3.0.3")
-implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.3")
+implementation("io.coil-kt.coil3:coil-compose:3.0.4")
+implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
 ```
 
 GLIDE :
