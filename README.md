@@ -8,7 +8,7 @@ Room is a persistence library that provides an abstraction layer over SQLite to 
 
 ### Dependency Versions:
 ```kotlin
-val room_version = "2.6.1"
+val room_version = "2.7.1"
 ```
 
 ### Dependencies:
