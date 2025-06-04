@@ -164,6 +164,11 @@ implementation("androidx.paging:paging-compose:3.3.2")
 
 ---
 
+### Leak Canary (To detect Memory Leaks):
+```kotlin
+debugImplementation("com.squareup.leakcanary:leakcanary-android:2.14")
+```
+
 ### Usage Notes
 - Ensure that your project’s Gradle files are set up to use Kotlin DSL.
 - You can too refer to Official Docs as well for in-depth reference or dependencies update.
