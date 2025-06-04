@@ -2,7 +2,7 @@
 
 This document provides a list of frequently used dependencies for Android app development, including setup instructions and usage notes.
 
-## Room
+## [Room](https://developer.android.com/jetpack/androidx/releases/room)
 
 Room is a persistence library that provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
 
