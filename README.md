@@ -96,9 +96,6 @@ implementation("com.squareup.retrofit2:retrofit:$retrofit_version")
 implementation("com.squareup.retrofit2:converter-gson:$retrofit_version)"
 ```
 
-### Notes:
-- Combine Retrofit with OkHttp for network operations, making it easy to handle API requests and responses.
-
 ## Image Loading 
 
 COIL :   
@@ -163,6 +160,9 @@ implementation("androidx.paging:paging-compose:3.3.2")
 - **Paging**: Ideal for implementing infinite scrolling or on-demand data loading patterns in RecyclerViews or Compose-based lists.
 
 ---
+
+### WorkManager:
+implementation("androidx.work:work-runtime-ktx:2.10.2")
 
 ### Leak Canary (To detect Memory Leaks):
 ```kotlin
