@@ -162,7 +162,9 @@ implementation("androidx.paging:paging-compose:3.3.2")
 ---
 
 ### WorkManager:
+```kotlin
 implementation("androidx.work:work-runtime-ktx:2.10.2")
+```
 
 ### Leak Canary (To detect Memory Leaks):
 ```kotlin
